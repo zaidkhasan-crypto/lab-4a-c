@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This circuit is a 1-bit full adder. It adds three binary inputs which are A, B, and Cin and produces two outputs which are sum and Cout
 
 ## How to test
 
-Explain how to use your project
+Set input A which is (ui[0]) and B which is (ui[1]) and Cin(ui[2]) to each of the combinations of 0s and 1s and check that the outputs which are S which is (uo[0]) and Cout which is (uo[1]) match the full adder truth table.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None.
