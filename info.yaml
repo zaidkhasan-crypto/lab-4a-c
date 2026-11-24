@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:            480737671811020801
+  title:                "1-Bit Full Adder"
+  author:              "Zaid Hasan and Keith Wilfert"
+  discord:             ""
+  description:         "A 1-Bit Full Adder adds 3 binary inputs which are A,B, and Cin to produce a sum bit which is S and a carry out bit which is Cout"
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,8 +16,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "S"
+  ui[1]: "Cout"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
